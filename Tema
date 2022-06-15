@@ -1,0 +1,25 @@
+Problema 1.
+Sa se creeze un proiect maven in care se va simula extragerea unor fructe dintr-un cos.
+Se va crea un Enum (Fruits) ce va contine un numar de fructe (alegeti voi cate). Sa spunem n fructe.
+
+In main se va crea un Map<Integer, Fruits> si se vor adauga perechile de valori.
+(0, FRUCT1), (1,FRUCT2) ... (n, FRUCTn)
+Pe baza acestuia, in main se va crea un Random si se vor genera numere de la 0 la n.
+Va trebui sa afisati numele fructului (constantei din Enum pe baza numarului extras)
+
+Problema 2.
+Sa se creeze un mini proiect in care se va crea o clasa Persoana.
+Persoana va avea 3 fielduri. nume, varsta si un Enum care decide daca persoana este majora sau nu.
+In momentul in care se citeste un astfel de obiect de la tastatura, in functie de varsta enum-ul va fi setat.
+Enumul va avea 2 valori (MINOR, MAJOR)
+
+Problema 3 (Optionala)
+Presupunem ca detinem un depozit de masini (limitat la numar)
+O sa cream un enum Option ce contine 2 constante: GAS, BATTERY
+O sa cream un Enum care detine pentru fiecare masina 3 valori:
+1. Un id de tip int
+2. Un String ce definest marca
+3. O lista de optiuni (Option). O masina poate sa fie doar pe GAS sau sa aiba si BATTERY in sensul ca are capacitatea de a merge pe baterie doar
+
+Cerinta: Se introduce un id de la tastatura si doresc sa afisez marca masinii si daca este hibrida (Daca are ambele optiuni).
+
